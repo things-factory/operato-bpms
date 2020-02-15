@@ -78,7 +78,7 @@ export default class ProcessGroupBar extends LitElement {
     return html`
       <ul>
         <li ?active=${this.processGroupId !== 0 && !this.processGroupId}>
-          <a href="${this.targetPage}"><mwc-icon>home</mwc-icon></a>
+          <a href="${this.targetPage}"><mwc-icon>dashboard</mwc-icon></a>
         </li>
 
         <li ?active=${this.processGroupId === 'favor'}>
