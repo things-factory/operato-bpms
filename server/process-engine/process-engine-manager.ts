@@ -25,10 +25,10 @@ export class ProcessEngineManager {
       variables
     })
 
-    ProcessEngineManager.instances[name] = engine
+    ProcessEngineManager.instances[engine.name] = engine
   }
 
-  public static retireProcess(process) {
-    process.retire()
+  public static retireProcess(instance) {
+    instance.stop()
   }
 }
