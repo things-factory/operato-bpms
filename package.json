@@ -50,5 +50,8 @@
     "bpmn-engine": "^8.6.0",
     "camunda-bpmn-moddle": "^4.4.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "resolutions": {
+    "matches-selector": "^1.2.0"
+  }
 }
